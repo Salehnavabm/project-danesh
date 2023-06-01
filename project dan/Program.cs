@@ -2,6 +2,7 @@
 
 class Student
 {
+    
     public int studentID;
     public string name;
     public float[] grades = new float[5];
@@ -36,6 +37,7 @@ class Student
         }
         return max;
     }
+    
     public float GetMinGrade()
     {
         float min = grades[0];
@@ -159,6 +161,7 @@ class Student
                         break;
                     }
                 }
+                
                 break;
             default:
                 Console.WriteLine("Invalid operation.");
